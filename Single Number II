@@ -1,0 +1,13 @@
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int a=0,b=0;
+        for(int n:nums){
+            a=(a^n)&~b;
+            b=(b^n)&~a;
+        }
+        return a;
+
+    }
+};
+//a is the number of ones and b is the number of twos occuring in the array &~b ensures that the element occuring in a will be removed if it occurs in b too.
