@@ -9,10 +9,10 @@ public:
         int half=n/2;
         int s1=0,s2=0;
         for(int j=0;j<half;j++){
-            s1+=s[j]-'0';
+            s1+=s[j];
         }
         for(int j=half;j<n;j++){
-            s2+=s[j]-'0';
+            s2+=s[j];
         }
         if(s1==s2){
             count++;
