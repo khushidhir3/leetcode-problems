@@ -128,8 +128,8 @@ g++ -std=c++17 "Problem Name.cpp" -o solution
 
 ## 📈 Progress Tracking
 
-- **Total Problems Solved**: 200+
-- **Total Commits**: 209
+- **Total Problems Solved**: 400+
+- **Total Commits**: 
 - **Current Focus**: Expanding coverage across all difficulty levels
 - **Next Goals**: Advanced dynamic programming, graph algorithms, system design
 
